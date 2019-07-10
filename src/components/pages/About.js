@@ -2,11 +2,12 @@ import React, { Fragment } from 'react';
 
 const About = () => {
   return (
-    <Fragment>
+    <div className='text-center'>
       <h1>About This App</h1>
-      <p>App to search Github users</p>
-      <p>Version: 1.0.0</p>
-    </Fragment>
+      <p>Search Github users and their Repos</p>
+      <p>Build with React - Hooks &amp; Context API</p>
+      <p>Version: 2.0.0</p>
+    </div>
   );
 };
 
